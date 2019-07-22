@@ -1,0 +1,6 @@
+framework module MMHNetwork {
+  umbrella header "MMHNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

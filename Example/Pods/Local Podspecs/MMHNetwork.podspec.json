@@ -1,0 +1,22 @@
+{
+  "name": "MMHNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of MMHNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/CapricornRJ/MMHNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CapricornRJ": "renjie@mamahao.com"
+  },
+  "source": {
+    "git": "https://github.com/CapricornRJ/MMHNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MMHNetwork/Classes/**/*"
+}

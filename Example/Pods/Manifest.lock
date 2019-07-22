@@ -1,0 +1,16 @@
+PODS:
+  - MMHNetwork (0.1.0)
+
+DEPENDENCIES:
+  - MMHNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  MMHNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMHNetwork: c68859a0ce7377fb03264b855d1371cdbe8cebfb
+
+PODFILE CHECKSUM: 7154fec7aeeee1a8214284bea4ffca99b8f4f723
+
+COCOAPODS: 1.7.4
