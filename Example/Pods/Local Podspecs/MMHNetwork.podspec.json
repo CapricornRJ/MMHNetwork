@@ -1,9 +1,13 @@
 {
   "name": "MMHNetwork",
-  "version": "0.1.0",
-  "summary": "A short description of MMHNetwork.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/CapricornRJ/MMHNetwork",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "version": "0.0.1",
+  "summary": "iOS 网络请求库",
+  "swift_versions": "5.0",
+  "description": "TODO: iOS 网络请求库",
+  "homepage": "https://github.com/CapricornRJ/MMHNetwork.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,10 +17,22 @@
   },
   "source": {
     "git": "https://github.com/CapricornRJ/MMHNetwork.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
-  "platforms": {
-    "ios": "8.0"
+  "requires_arc": true,
+  "source_files": "MMHNetwork/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "HandyJSON": [
+
+    ],
+    "Cache": [
+
+    ]
   },
-  "source_files": "MMHNetwork/Classes/**/*"
+  "swift_version": "5.0"
 }

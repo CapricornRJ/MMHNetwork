@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'MMHNetwork'
   s.platform         = :ios, '8.0'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'iOS 网络请求库'
-  s.swift_version    = '4.0'
+  s.swift_version    = '5.0'
   s.description      = <<-DESC
 TODO: iOS 网络请求库
                        DESC
@@ -16,13 +16,13 @@ TODO: iOS 网络请求库
   #是否支持arc
   s.requires_arc = true
   
-  s.source_files = 'MMHNetwork/Classes/**/*.swift'
+  s.source_files = 'MMHNetwork/Classes/**/*'
   
   # s.resource_bundles = {
   #   'MMHNetwork' => ['MMHNetwork/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*'
   s.frameworks = 'Foundation'
   s.dependency 'Alamofire'
   s.dependency 'HandyJSON'

@@ -1,11 +1,12 @@
 use_frameworks!
 
 target 'MMHNetwork_Example' do
-  pod 'MMHNetwork', :path => '../'
+  pod 'MMHNetwork', :path => '../MMHNetwork.podspec'
 
   target 'MMHNetwork_Tests' do
     inherit! :search_paths
-
-    
+    pod 'Alamofire'
+    pod 'HandyJSON'
+    pod 'Cache'  
   end
 end
